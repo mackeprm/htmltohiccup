@@ -20,6 +20,6 @@
 
 (defn -main []
   (let [port (Integer/parseInt 
-               (or (System/getenv "PORT") "8080"))]
+               (or (System/getenv "PORT") "9002"))]
   (println (str "Started on port " port "..."))
   (start port)))
